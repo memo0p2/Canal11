@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #F0F3F8;
+}
+
+input{
+    border-color: #D6DDE2;
+}
+
+.navbar {
+    height: 89px;
+    background-color: white;
+}
+
+
+.box{
+    min-height: 20vw;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.usuario{
+    color: #304659;
+    font-weight:normal;
+    font-size: 19px;
+}
+
+.encabezadoPrincipal{
+    font-weight:bold ;
+    color: #304659;
+    font-size: 41px;
+}
+
+.subtituloPrincipal{
+    font-weight:normal;
+    color: #8298AB;
+    font-size: 22px;
+}
+
+.infoEncabezado{
+    font-weight:normal ;
+    color: #304659;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.infoTexto{
+    font-weight:normal ;
+    color: #8298AB;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.btn{
+
+    border-radius: 3px;
+    font-weight:normal;
+    font-size: 16px;
+    color: #F4F6F8;
+
+    width: 25%;
+    background-color: #304659;
+}
+
+.noAdmin{
+    display: none;
+}

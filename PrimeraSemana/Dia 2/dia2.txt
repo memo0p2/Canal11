@@ -1,0 +1,84 @@
+Día 2
+
+
+Tarea: Maquetado (Realizar un dashboard responsivo) 
+
+
+Se comparte mockup y json del dashboard, la vista debe quedar lo más parecida posible (se adjuntan estilos). Todos los datos deberán ser dinámicos de acuerdo a la información que se mande.
+
+Los recuadros que muestran “más información” deberán mostrarse u ocultarse de acuerdo a permiso “administrador”.
+
+
+Estilos:
+
+
+Fondo: #F0F3F8
+
+Fuente: Poppins
+
+contenedor: 89 px como margen para elementos
+
+header 81px alto
+
+
+Box principal
+
+Encabezados: Poppins - Bold - 41 - #304659
+
+Subtítulo: Poppins - Regular - 22px - #8298AB
+
+
+Box más información
+
+Encabezados: Poppins - Regular - 22 - #304659
+
+Texto: Poppins - Regular - 16 - #8298AB
+
+
+Botones
+
+esquina redondeada 3px
+
+color: #304659
+
+texto: Poppins - regular - 16px - #F4F6F8
+
+
+boxes esquina redondeada 10px
+
+altura box: 271px aprox
+
+
+input
+
+borde: #D6DDE2
+
+
+usuario
+
+color: #304659
+
+texto: Poppins - regular - 19px -  #304659
+
+
+
+{
+    name: "User Name",
+    permiso: "administrador",
+    visits: 1000,
+    users: 200,
+    storage: 16,
+    documents: [
+        {type:"document", name:"Document 1"},
+        {type:"document", name:"Document 2"},
+        {type:"document", name:"Document 3"},
+        {type:"document", name:"Document 4"},
+
+    ],
+    activities:[
+        {type:"activity", name:"Activity 1"},
+        {type:"activity", name:"Activity 2"},
+        {type:"activity", name:"Activity 3"},
+    ]
+
+}
