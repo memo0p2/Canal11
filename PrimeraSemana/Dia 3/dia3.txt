@@ -1,0 +1,23 @@
+Dados los siguientes endpoints 
+
+https://gorest.co.in/public/v2/users
+https://gorest.co.in/public/v2/todos
+
+Crear una tabla en la cual se conjuntan ambos endpoint relacionándolos por el user id, que pueda ser ordenada por nombre para los usuarios y por título para ‘todos’.
+
+Estos filtros deben ser disparados por un botón cada uno
+
+Requisitos
+
+El maquetado es libre, pero se debe considerar que al ser bastante la información a mostrar puede que se necesite ocultar parte de ella hasta que se haga click en un elemento \
+
+Se debe mostrar en una columna el nombre del usuario, pero solo se mostraran las 2 primeras palabras de su nombre. Por ejemplo
+Dr. Rageshwari Adiga ->  Dr. Rageshwari
+
+El título de los todos, debe estar en mayúsculas
+
+la fecha debe mostrarse en formato dd/mm/aaaa
+
+los estatus y género deben ser en español
+
+el correo debe mostrarse en mayúsculas
